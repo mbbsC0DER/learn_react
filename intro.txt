@@ -17,5 +17,16 @@
 
 React ka Dom = virtual DOM
 <> </> ==> isko react me fragment bolte hai hum app.jsx me bas ek hi element ko return kar sakte 
+{username} => fragment ke andar aise variables define karte hai inko evaluated expression bolte hai .
 
 1. Components (joh functions) banate hai voh capitalized rakho (in both)
+2. vite me specifically usse .tsx se banao react me .js bhi chalta hai 
+
+step 0 : humne khud ka ek custom reactElement(object) banaya customRender fnction bhi banaya do methods se aur usse root me append bhi kia ;)  
+step 1 : humne check kia ki normal html joh hum return kar rhe hai voh object me convert ho rha react me aur hir render ho rha 
+step 2 : phir humne socha direct object hi dede toh ek step bachega , but hume react ke object ke name conventions nhi pata 
+step 3 : hume React.createElement() ke baare me pata chala 
+    1st arg : element type
+    2nd arg : attributes
+    3rd arg : children (text joh inject karna hai)
+    4th arg : evaluated expression
