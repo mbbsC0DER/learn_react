@@ -1,0 +1,21 @@
+//why React ? 
+//make easy to manage & build complex frontend .
+//React is a library (cool dude - strict rules nhi hote)
+//SPA = Single Page Application (page not reload)
+// Cons = no  SEO ,  browser render of js slow , no routing 
+
+//for web ==> react + react-dom 
+//for mobile apps ==> react + react-native
+
+//npx = Node Package Executor 
+//npx → old method of “run this tool temporarily”
+// npm create → new method of “run this tool temporarily”
+
+// CRA(Create-React-app) / Vite hume ek already set environment dete hai jisme hum react use kar sake 
+//CRA (old) ==> npx create-react-app my-app
+//Vite(modern) ==> npm create vite@latest my-app
+
+React ka Dom = virtual DOM
+<> </> ==> isko react me fragment bolte hai hum app.jsx me bas ek hi element ko return kar sakte 
+
+1. Components (joh functions) banate hai voh capitalized rakho (in both)
