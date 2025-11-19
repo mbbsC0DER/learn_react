@@ -30,3 +30,8 @@ step 3 : hume React.createElement() ke baare me pata chala
     2nd arg : attributes
     3rd arg : children (text joh inject karna hai)
     4th arg : evaluated expression
+
+setCount = “React, update your memory (empty box), please.”
+After setCount React does a re-render of your component.
+useState always returns whatever value React last stored.
+Mutating counter++ does nothing unless you send that new value into setCount.
